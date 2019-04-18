@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700,900');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
+}
+
+.home {
+  border: 2px solid black;
+  width: 1000px;
+  height: 500px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+img {
+  height: 60%;
+}
+
+img.bed {
+  height: 70%;
+}
+
+.phone {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  border: 5px solid black;
+  border-radius: 25px;
+  width: 300px;
+  height: 500px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(to right, #232526, #414345);
+  font-weight: 500;
+}
+
+.inner {
+  border: 3px solid rgb(77, 76, 76);
+  border-radius: 15px;
+  margin: auto;
+  width: 90%;
+  height: 95%;
+  text-align: center;
+  background-color: white;
+}
+
+.inner p {
+  margin-top: 1.5em;
+  font-weight: 700;
+}
+
+button {
+  font-size: 3em;
+  margin: auto;
+  margin-top: 0.5em;
+  color: black;
+  padding: 5px;
+  border: 3px solid black;
+  background: rgb(241, 238, 238);
+}
+
+#num {
+  font-size: 4.3em;
+  font-weight: 500;
+}
+
+#heart {
+  font-size: 2em;
+}
+
+p#bed {
+  font-size: 3em;
+}
+
+p {
+  margin: 0;
+  font-size: 3em;
+}
+
+div#swal2-content {
+  font-weight: 400;
+}
